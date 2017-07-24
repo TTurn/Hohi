@@ -89,7 +89,6 @@ if __name__ == "__main__":
 def gone(island_shape, island_area, map, x, y, has_gone_list, rows, colomns):      #在这个岛屿上游走开发
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
-
     for i in range(4):
         move_x = x + dx[i]
         move_y = y + dy[i]
